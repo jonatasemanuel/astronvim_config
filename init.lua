@@ -23,7 +23,7 @@ return {
   -- Set colorscheme to use
   colorscheme = "astrodark", 
   
-  set t_Co=256
+  set t_Co=256,
 
     -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
