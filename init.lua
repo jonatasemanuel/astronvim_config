@@ -18,8 +18,14 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "astrodark",
-
+  -- colorscheme = "astrodark",
+  return {
+    plugins = {
+      "AstroNvim/astrocommunity",
+      { import = "astrocommunity.colorscheme.catppuccin" }
+      -- ... import any community contributed plugins here
+    }
+  }
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
     virtual_text = true,
