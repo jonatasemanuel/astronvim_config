@@ -23,10 +23,8 @@ return {
   -- Set colorscheme to use
   colorscheme = "astrodark", 
   
-  if &term == "screen"
-    set t_Co=256
-  endif
-  
+  set t_Co=256
+
     -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
     virtual_text = true,
