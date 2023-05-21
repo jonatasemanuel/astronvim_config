@@ -17,7 +17,7 @@ return {
     },
     plugins = {
       "AstroNvim/astrocommunity",
-      { import = "astrocommunity.colorscheme.catppuccin" },
+      { import = "astrocommunity.colorscheme.catppuccin" }},
   },
 
   -- Set colorscheme to use
