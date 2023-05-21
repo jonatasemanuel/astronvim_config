@@ -22,7 +22,7 @@ return {
       },
     },
   },
-  { import = "astrocommunity.completion.copilot-lua" },
+  -- { import = "astrocommunity.completion.copilot-lua" },
   { -- further customize the options set by the community
     "copilot.lua",
     opts = {
